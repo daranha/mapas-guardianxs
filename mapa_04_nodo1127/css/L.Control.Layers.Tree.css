@@ -17,7 +17,8 @@
 }
 
 
-.leaflet-layerstree-header {
+.leaflet-layerstree-header img {
+    max-width: 16px;
 }
 
 .leaflet-layerstree-header-pointer {
@@ -29,11 +30,16 @@
     cursor: pointer;
 }
 
-.leaflet-layerstree-header-label {
+.leaflet-layerstree-header-label img {
+    max-width: 16px;
 }
 
 .leaflet-layerstree-header-name {
-	padding-left: 2px;
+        padding-left: 2px;
+}
+
+.leaflet-layerstree-header-name img {
+        max-width: 16px;
 }
 
 .leaflet-layerstree-header-space {
